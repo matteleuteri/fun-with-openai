@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 response = openai.Image.create(
-  prompt="A stained glass style painting of the last supper",
+  prompt="A bengal cat rolling around in the grass.",
   n=1,
   size="1024x1024"
 )
